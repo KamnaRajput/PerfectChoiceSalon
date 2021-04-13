@@ -148,15 +148,15 @@ img
 #logo
 {
 	text-align:center;
-	background-color:#0C0032;
+	background-color:#66319A;
 }
 .black
 {
-	background-color:#0C0032;
+	background-color:#66319A;
 }
 #menu
 {
-	background-color:#0C0032;
+	background-color:#66319A;
 	text-align:center;
 	margin:0px;
 	height:80px;
@@ -165,7 +165,7 @@ img
 {
 	display:block;
 	float: left;
-	margin:50px 25px 0px 0px;;
+	margin:50px 15px 0px 0px;;
 	border-radius:5px;
 	border:1px #fff solid;
 }
@@ -175,7 +175,7 @@ img
 	text-decoration: none;
 	display:block;
 	font-size:18px;
-	padding:10px 25px;
+	padding:10px 10px;
 	border-radius:5px;
 }
 #menu ul li:hover
@@ -213,7 +213,7 @@ h3#welcome
 }
 #box-3
 {
-	background-color:#0C0032;
+	background-color:#66319A;
 	color:#FFF;
 	padding: 10px 0px;
 }
@@ -240,7 +240,7 @@ h3#welcome
 }
 #footer-bg2
 {
-	background-color:#0C0032;
+	background-color:#66319A;
 }
 #copy
 {
@@ -296,7 +296,7 @@ h3#welcome
 .box-border .link2 a:hover
 {
 	color:#FFF;
-	background-color:#0C0032;
+	background-color:#66319A;
 }
 .more
 {
@@ -308,7 +308,7 @@ h3#welcome
 }
 .more:hover
 {
-	background-color:#0C0032;
+	background-color:#66319A;
 	color:#FFF;
 }
 .more:hover a
@@ -347,7 +347,7 @@ h3#welcome
 }
 .button input
 {
-	background-color:#0C0032;
+	background-color:#66319A;
 	color:#FFF;
 	border: none;
 	padding: 10px 35px;
@@ -356,6 +356,48 @@ h3#welcome
 {
 	background-color:#CCC;
 	color:black;
+}
+#gallery-img img
+{
+	width:338px;
+	height:225px;
+}
+#black-bg
+{
+	background-color:#000;
+}
+#right
+{
+	text-align:right;
+}
+#white-co
+{
+	color:#fff;
+}
+#right button
+{
+	background-color: #66319A;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.center
+{
+	text-align:center;
+}
+#btn-add
+{
+	border:1px solid #66319A;
+	padding: 20px 0px;
+}
+#btn-add button
+{
+	background-color: #66319A;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
 }
 @media only screen and (max-width:1024px)
 {
@@ -448,7 +490,7 @@ h3#welcome
 		clear:both;
 		width:50%;
 		text-align:center;
-		background-color:#0C0032;
+		background-color:#66319A;
 		margin: 0.5% 25%;
 	}
 	#menu ul li a
@@ -502,4 +544,46 @@ h3#welcome
 	{
 		display:block;
 	}	
+}
+#contact-us .input_field {
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+#contact-us .input_field input[type="text"],
+#contact-us textarea {
+	width: 33%;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+}
+
+#contact-us textarea {
+	height: 80px;
+	resize: none;
+}
+
+#contact-us .btn input[type="submit"] {
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 33%;
+	background: #66319A;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+#contact-us #error_message {
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #fe8b8e;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s ease;
+}
+.btn {
+    text-align: center;
 }
